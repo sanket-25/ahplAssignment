@@ -1,7 +1,9 @@
 // pages/index.js
 import { useState } from 'react';
+import "./globals.css";
 
-export default function Home() {
+
+export default function Review() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
